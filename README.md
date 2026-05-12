@@ -44,9 +44,10 @@
 ### 💡 심화 통계 분석: 로지스틱 회귀 및 VIF 검정
 
 단순 기술 통계를 넘어, 변수 간 복합적인 영향을 파악하기 위해 **로지스틱 회귀 모델**을 구축하고 유의성을 검정하였습니다.
+<img width="608" height="725" alt="Image" src="https://github.com/user-attachments/assets/5db1c199-b3fa-4262-9c86-eb078efb0e57" />
 
 #### 1) 변수 유의성 및 영향력 (P-value & Odds Ratio)
-<img width="608" height="725" alt="Image" src="https://github.com/user-attachments/assets/5db1c199-b3fa-4262-9c86-eb078efb0e57" />
+
 * **성별 유의성:** 여성 고객의 이탈 오즈비(Odds Ratio)는 **1.71**로 나타나, 남성 대비 이탈 위험이 통계적으로 매우 높음($p < 0.001$).
 * **연령의 영향:** 연령이 1단위 증가할수록 이탈 확률이 약 **7.5%**씩 유의미하게 증가함.
 * **방어 요인:** 활동 회원(IsActiveMember)의 경우 이탈 확률이 **66% 감소**하는 강력한 방어 효과를 보임.
